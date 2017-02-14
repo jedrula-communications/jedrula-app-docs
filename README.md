@@ -12,7 +12,8 @@ https://github.com/jedrula-communications/personal-project
 Ember application build with fastboot  
 ####1.3. access
 http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
-monitor: https://siteuptime.com/users/reports.php?Id=4489
+monitor: https://siteuptime.com/users/reports.php?Id=4489  
+monitor2: https://uptimerobot.com/dashboard.php#778677465
 
 #2. Backend application - nodejs (express + mongodb)  
 ####2.1. repository url
@@ -29,3 +30,4 @@ https://github.com/jedrula-communications/jwt-auth
 nodejs backend which authorizes requests using jsonwebtokens. authorized requests are proxied to the backend application (2)  
 ####3.3. access 
 http://78.88.253.196:4000/ (port forwarded to a raspberry pi 4000 port running nodejs app)
+monitor: https://uptimerobot.com/dashboard.php#778677470
