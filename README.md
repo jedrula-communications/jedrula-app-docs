@@ -11,7 +11,8 @@ https://github.com/jedrula-communications/personal-project
 ####1.2. what
 Ember application build with fastboot  
 ####1.3. access
-http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)
+http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
+monitor: https://siteuptime.com/users/reports.php?Id=4489
 
 #2. Backend application - nodejs (express + mongodb)  
 ####2.1. repository url
