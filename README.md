@@ -9,11 +9,16 @@ The whole system is composed of 3 applications which have seperate repositories
 ####1.1. repository url  
 https://github.com/jedrula-communications/personal-project  
 ####1.2. what
-Ember application build with fastboot  
+Ember application - there is a fastboot version deployed running on Pi and static version on surge.sh
 ####1.3. access
+####1.3.1 fastboot version
 http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
 monitor: https://siteuptime.com/users/reports.php?Id=4489  
 monitor2: https://uptimerobot.com/dashboard.php#778677465
+####1.3.1 surge version  
+http://jedrula-app.surge.sh/
+monitor: https://uptimerobot.com/dashboard#778679445
+
 
 #2. Backend application - nodejs (express + mongodb)  
 ####2.1. repository url
