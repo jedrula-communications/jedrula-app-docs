@@ -15,7 +15,7 @@ Ember application - there is a fastboot version deployed running on Pi and stati
 http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
 monitor: https://siteuptime.com/users/reports.php?Id=4489  
 monitor2: https://uptimerobot.com/dashboard.php#778677465
-####1.3.1 surge version  
+####1.3.2 surge version  
 http://jedrula-app.surge.sh/
 monitor: https://uptimerobot.com/dashboard#778679445
 
