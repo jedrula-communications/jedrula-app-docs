@@ -20,7 +20,7 @@ https://github.com/jedrula-communications/ember-fastboot-server
 ####2.2 what
 fastboot application which runs the code from #1
 ####2.3 access
-http://78.88.253.196:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
+http://78.88.255.144:5000 (port forwarded to a raspberry pi 5000 port running fastboot app)  
 monitor: https://siteuptime.com/users/reports.php?Id=4489  
 monitor2: https://uptimerobot.com/dashboard.php#778677465
 
