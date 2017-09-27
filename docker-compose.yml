@@ -10,6 +10,8 @@ services:
       - "5000:5000"
   web:
     image: jedrula/jedrula-nodejs-backend
+    #build: ./../jedrula-nodejs-backend
+    restart: on-failure
     ports:
       - "3000:3000"
   mongo:
