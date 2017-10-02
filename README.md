@@ -42,6 +42,9 @@ jsonapi-server used as API for Ember
 #### 3.3. access
 not accesible publicly, 192.168.0.185:3000 on LAN (raspberr pi running nodejs app)
 
+#### 3.4 mongo
+you need to make sure mongo url is set correctly. When you use an ip then make sure bind_ip is set properly in /etc/mongod.conf
+
 # 4. Auth application - nodejs jsonwebtoken layer  
 
 #### 4.1. repository url  
