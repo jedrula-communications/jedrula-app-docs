@@ -3,7 +3,7 @@ documentation of jedrula's personal application
 
 The application is a combination of a portfolio and a technical blog
 
-The whole system is composed of 3 applications which have seperate repositories
+The whole system is composed of 4 applications which have seperate repositories
 
 # 1. Frontend application - Ember with fastboot addon
 
@@ -53,3 +53,17 @@ nodejs backend which authorizes requests using jsonwebtokens. authorized request
 
 #### 4.3. access 
 http://jedrula.ddns.net:4000/ (port forwarded to a raspberry pi 4000 port running nodejs app)
+
+
+
+
+#### How it is hosted
+1 (frontend js app) - sits on a surge server, api server points to a no-ip domain which holds the ip of my modem. The api server port is forwarded by my home router to a raspberry pi where the nodejs application is running
+
+2 (fastboot app) - sits on a NAS synology server. Used to live on a raspberry but was very slow. The url is a no-ip server with a port that is forwarded to the NAS.
+
+3 (backend application) - sits on raspberry pi. Not publicly accessible/
+
+4 (auth application) - sits on raspberry pi. It can be accessed using the url of api server from point 1
+
+5 (mongodb) - sits on raspberry pi.
