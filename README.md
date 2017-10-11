@@ -26,9 +26,7 @@ https://github.com/jedrula-communications/ember-fastboot-server
 fastboot application which runs the code from #1
 
 #### 2.3 access
-http://88.156.95.104:5000/ (port forwarded to a raspberry pi 5000 port running fastboot app)  
-monitor: https://siteuptime.com/users/reports.php?Id=4489  
-monitor2: https://uptimerobot.com/dashboard.php#778677465
+http://jedrula.ddns.net:5005 (port forwarded to a home server 5005 port running fastboot app)  
 
 
 # 3. Backend application - nodejs (express + mongodb)  
@@ -40,7 +38,7 @@ https://github.com/jedrula-communications/personal-project-backend
 jsonapi-server used as API for Ember
 
 #### 3.3. access
-not accesible publicly, 192.168.1.102:3000 on LAN (raspberr pi running nodejs app)
+not accesible publicly, 192.168.1.102:3000 on LAN (raspberry pi running nodejs app)
 
 #### 3.4 mongo
 you need to make sure mongo url is set correctly. When you use an ip then make sure bind_ip is set properly in /etc/mongod.conf
@@ -54,5 +52,4 @@ https://github.com/jedrula-communications/jwt-auth
 nodejs backend which authorizes requests using jsonwebtokens. authorized requests are proxied to the backend application (#3)  
 
 #### 4.3. access 
-http://88.156.95.104:4000/ (port forwarded to a raspberry pi 4000 port running nodejs app)
-monitor: https://uptimerobot.com/dashboard.php#778677470
+http://jedrula.ddns.net:4000/ (port forwarded to a raspberry pi 4000 port running nodejs app)
